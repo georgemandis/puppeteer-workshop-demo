@@ -1,0 +1,17 @@
+{
+  "name": "recurse-puppeteer-workshop-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "scrape": "node src/index.js",
+    "screenshot": "node src/screenshot.js",
+    "pdf": "node src/pdf.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
