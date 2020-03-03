@@ -14,11 +14,6 @@ if (!url) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   
-  // await page.setViewport({
-  //   width: 2560,
-  //   height: 1080
-  // });
-
   try {
     await page.goto(url);
   } catch (error) {
@@ -44,7 +39,7 @@ if (!url) {
 
       return data;
     });
-    // initiate comprehend later
+    
   } catch (error) {
     console.log(error);
   }
